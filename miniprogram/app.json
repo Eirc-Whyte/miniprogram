@@ -3,12 +3,13 @@
     "pages/index/index",
     "pages/about/about",
     "pages/logs/logs",
-    "pages/science/science"
+    "pages/science/science",
+    "pages/donate/donate"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "北大猫咪图鉴",
+    "navigationBarTitleText": "SDUQDCats",
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": true
   },
@@ -28,6 +29,10 @@
       {
         "text": "关于",
         "pagePath": "pages/about/about"
+      },
+      {
+        "text":"捐助",
+        "pagePath": "pages/donate/donate"
       }
     ]
   }

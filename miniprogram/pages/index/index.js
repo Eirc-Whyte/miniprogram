@@ -1,10 +1,13 @@
 Page({
 data: { 
  fostered_catlist: [
-{ name:"杰希"},
-{ name:"土谦"},
+   {name:"小虎"}
 ],
  unknown_catlist: [
+   {name:"阿图一家"},
+   {name:"小花"},
+   {name:"橘子"},
+   {name:"小棚"},
 ],
  dead_catlist: [
 ],
@@ -12,7 +15,7 @@ data: {
     screenHeight: 0,
     imgwidth: 0,
     imgheight: 0,
-    navbar: ['在校', '毕业', '休学', '喵星'],
+    navbar: ['在校', '毕业', '探险', '喵星'],
     currentTab: 0,
   },
    navbarTap: function (e) {

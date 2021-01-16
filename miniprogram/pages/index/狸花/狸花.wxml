@@ -3,7 +3,7 @@
 <block wx:for="{{catlist}}">
   <navigator url="/pages/cats/{{item.name}}/{{item.name}}" >
     <view class="catitem">
-      <image  class = 'avator ' src="https://pku-lostangel.oss-cn-beijing.aliyuncs.com/{{item.name}}_circle.png" mode='aspectFill' ></image>
+      <image  class = 'avator ' src="cloud://sducats-9g72exszb305a71a.7364-sducats-9g72exszb305a71a-1304138247/{{item.name}}_circle.png" mode='aspectFill' ></image>
       <view class= "cat-name">{{item.name}}</view> 
     </view>
   </navigator>

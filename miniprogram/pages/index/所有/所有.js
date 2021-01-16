@@ -1,7 +1,7 @@
 Page({
 data: { 
  catlist: [
-{ name:"小黄鸭"},{ name:"英杰"},{ name:"一帆"},{ name:"薏米"},
+{ name:"小虎"},{ name:"橘子"},{ name:"小花"},{ name:"阿图一家"},{ name:"小棚"},
     ],
     screenWidth: 0,
     screenHeight: 0,

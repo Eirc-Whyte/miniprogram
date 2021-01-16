@@ -1,7 +1,7 @@
 Page({
 data: { 
  catlist: [
-{ name:"英杰"},{ name:"一帆"},
+{ name:"小花"},{ name:"阿图一家"},
     ],
     screenWidth: 0,
     screenHeight: 0,

@@ -1,2 +1,10 @@
 
-<web-view src="https://mp.weixin.qq.com/s/ZlbsiTapJHmxUSz31dKqZw"> </web-view>
+<!-- <web-view src="https://mp.weixin.qq.com/s/ZlbsiTapJHmxUSz31dKqZw"> </web-view>
+ -->
+<!-- <view class="body">捐赠页正在建设中 </view> -->
+<view style="display:flex; justify-content:center; align-items:center;">
+  <image show-menu-by-longpress="True" mode="widthFix" src="cloud://sducats-9g72exszb305a71a.7364-sducats-9g72exszb305a71a-1304138247/donate.jpg" style= "width: 93%;">
+  </image>
+</view>
+
+<view class="body"> 替猫猫们感谢同学们的好心捐助！！您的每一分钱都可以为饥肠辘辘的猫猫充饥或为猫窝添砖加瓦让猫猫免受青岛校区冬天寒风的欺负。如果您有意亲自参与到流浪猫的保护、喂养或领养中来，可以加入我们的qq交流群<text bindtap="copyTBL" style="color:#5DADE2 ">点击复制群号</text>，每月的募捐结果以及资金使用也会同时公示在群中。如果发现小程序内信息错误，或者有任何意见或建议，也欢迎入群交流，让我们一起为猫猫的美好生活献出微薄之力♥ \n </view>

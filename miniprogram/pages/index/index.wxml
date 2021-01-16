@@ -1,6 +1,6 @@
 <!--index.wxml-->
 
-<image  class = 'avator ' src="/pages/images/huihui_circle.png" mode='aspectFill' ></image>
+<image  class = 'avator ' src="cloud://sducats-9g72exszb305a71a.7364-sducats-9g72exszb305a71a-1304138247/huihui_circle.png" mode='aspectFill' ></image>
 <view class="search">
 <input placeholder="请输入猫咪名称" bindconfirm="bindconfirmT" placeholder-class="placeholder" />
 </view>
@@ -63,9 +63,9 @@
 
 <view class="divLine"></view>
 
-<navigator url="/pages/index/所有/所有" >
+<navigator url="/pages/index/allCats/allCats" >
   <view class="catitem">
-    <image  class = 'avator ' src="/pages/images/huihui_circle.png" mode='aspectFill' ></image>
+    <image  class = 'avator ' src="cloud://sducats-9g72exszb305a71a.7364-sducats-9g72exszb305a71a-1304138247/huihui_circle.png" mode='aspectFill' ></image>
     <view class= "cat-name">所有</view>
   </view>
 </navigator>
@@ -99,7 +99,7 @@
   <block wx:for="{{fostered_catlist}}">
   <navigator url="/pages/cats/{{item.name}}/{{item.name}}" >
     <view class="catitem">
-      <image  class = 'avator ' lazy-load src="https://pku-lostangel.oss-cn-beijing.aliyuncs.com/{{item.name}}_circle.png" mode='aspectFill' ></image>
+      <image  class = 'avator ' lazy-load src="cloud://sducats-9g72exszb305a71a.7364-sducats-9g72exszb305a71a-1304138247/{{item.name}}_circle.png" mode='aspectFill' ></image>
       <view class= "cat-name">{{item.name}}</view> 
     </view>
   </navigator>
@@ -109,13 +109,13 @@
 </block>
 </view>
 
-<!-- 休学 -->
+<!-- 探险 -->
 
 <view hidden="{{currentTab!==2}}">
     <block wx:for="{{unknown_catlist}}">
   <navigator url="/pages/cats/{{item.name}}/{{item.name}}" >
     <view class="catitem">
-      <image  class = 'avator ' lazy-load src="https://pku-lostangel.oss-cn-beijing.aliyuncs.com/{{item.name}}_circle.png" mode='aspectFill' ></image>
+      <image  class = 'avator ' lazy-load src="cloud://sducats-9g72exszb305a71a.7364-sducats-9g72exszb305a71a-1304138247/{{item.name}}_circle.png" mode='aspectFill' ></image>
       <view class= "cat-name">{{item.name}}</view> 
     </view>
   </navigator>
