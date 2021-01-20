@@ -4,7 +4,8 @@
     "pages/about/about",
     "pages/logs/logs",
     "pages/science/science",
-    "pages/donate/donate"
+    "pages/donate/donate",
+    "pages/adapt/adapt"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -15,7 +16,7 @@
   },
   "sitemapLocation": "sitemap.json",
   "tabBar": {
-    "selectedColor":"#94070a",
+    "selectedColor": "#94070a",
     "color": "#888888",
     "list": [
       {
@@ -27,14 +28,17 @@
         "pagePath": "pages/science/science"
       },
       {
-        "text": "关于",
-        "pagePath": "pages/about/about"
+        "text": "领养",
+        "pagePath": "pages/adapt/adapt"
       },
       {
-        "text":"捐助",
+        "text": "捐助",
         "pagePath": "pages/donate/donate"
+      },
+      {
+        "text": "关于",
+        "pagePath": "pages/about/about"
       }
     ]
   }
-
 }

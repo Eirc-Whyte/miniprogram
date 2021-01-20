@@ -127,88 +127,6 @@
 
 <view hidden="{{currentTab!==2}}">
 
-<view class="title">领养</view>
-
-
-<view class="body">
-几乎所有流浪猫都是被遗弃的宠物猫，已经被人类驯化，并没有野外生存能力，而非所谓“自由自在的野猫”。流浪意味着面临风吹日晒，冻饿，机动车和流浪狗的伤害，猫协只能尽力保证其基本生存，并不能满足猫咪的全部需求。
-</view>
-
-<view class="head1">
-领养要求
-</view>
-
-
-<view class="body">
-o	请不要放养猫咪：可能感染寄生虫、误食鼠药、被猫贩子抓走，此外猫咪记忆力不太好，容易走失。
-</view>
-
-<view class="body">
-o	请给猫咪吃正规猫粮、用猫砂。猫咪的身体和人类不同，人类的食物并不适合它们。使用猫砂，也能给您的家营造一个干净的环境。
-</view>
-
-<view class="body">
-o	请按时给猫咪免疫、绝育，猫咪的繁殖能力很强，请不要再给已经膨胀不堪的猫口带来更多的压力，这不是爱猫，是害猫。
-</view>
-
-<view class="body">
-o	家人、合租室友、房东（如有）都接纳猫咪的到来，不要因为猫咪一时的顽皮就厌恶它、抛弃它。
-</view>
-
-<view class="body">
-o	请保持与送养人的联系，有事请及时与送养人沟通，并接受回访。
-</view>
-
-<view class="body">
-</view>
-
-<view class="head1">
-领养流程
-</view>
-
-<view class="body">
-o	加入qq群1022750861咨询相关领养事宜
-</view>
-
-<view class="body">
-o	阅读领养说明，确认自身符合领养条件
-</view>
-
-<view class="body">
-o	联系送养人，填写申请表问卷
-</view>
-
-<view class="body">
-o	送养人对问卷进行初审，就相关问题与您进行沟通
-</view>
-
-<view class="body">
-o	通过初审后，接受视频家访
-</view>
-
-<view class="body">
-o	家访通过后，按照送养人建议准备猫咪用品
-</view>
-
-<view class="body">
-o	签订领养协议，领猫咪回家w
-</view>
-
-<view class="body">
-o	不定期接受微信照片/视频回访
-</view>
-
-<view class="body">
-</view>
-
-
-
-<view class="staff">科普内容参考：北大猫协</view>
-
-</view>
-
-<view hidden="{{currentTab!==3}}">
-
 <view class="title">绝育</view>
 
 
@@ -232,7 +150,7 @@ o	不定期接受微信照片/视频回访
 
 </view>
 
-<view hidden="{{currentTab!==4}}">
+<view hidden="{{currentTab!==3}}">
 
 <view class="title">撸猫指南</view>
 

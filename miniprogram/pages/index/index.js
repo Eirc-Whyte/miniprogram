@@ -1,13 +1,18 @@
 Page({
 data: { 
+  catlist:[
+    {name:"阿图一家"},
+    {name:"小花"},
+    {name:"橘子"},
+    {name:"桶桶"},
+    {name:"大强小强"},
+  ],
  fostered_catlist: [
-   {name:"小虎"}
+   {name:"小虎"},
+    {name:"悠悠"},
 ],
  unknown_catlist: [
-   {name:"阿图一家"},
-   {name:"小花"},
-   {name:"橘子"},
-   {name:"小棚"},
+
 ],
  dead_catlist: [
 ],
@@ -15,7 +20,7 @@ data: {
     screenHeight: 0,
     imgwidth: 0,
     imgheight: 0,
-    navbar: ['在校', '毕业', '探险', '喵星'],
+    navbar: ['在校', '毕业', '喵星'],
     currentTab: 0,
   },
    navbarTap: function (e) {
@@ -39,6 +44,9 @@ data: {
         url: '/pages/cats/' + options.pageId + '/' + options.pageId,
       })
     }
+    wx.cloud.init({
+      env:"sducats-9g72exszb305a71a",
+    });
   },
 
   //转发此页面的设置

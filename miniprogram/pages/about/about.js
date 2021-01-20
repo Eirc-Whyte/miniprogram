@@ -29,8 +29,6 @@ Page({
     }
   })
   },
-
-
   // 跳转小程序
   naviToMini:function(e){
     wx.navigateToMiniProgram({

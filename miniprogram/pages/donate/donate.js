@@ -7,7 +7,23 @@ Page({
     imgwidth: 0,
     imgheight: 0,
     imgalist: ['https://course.pku.edu.cn/bbcswebdav/users/1600011084/猫协小程序图片/donate.jpeg',
-    ]
+    ],
+    list:[
+
+    ],
+  },
+  onLoad:function(){
+    let util = require("../../utils/util.js")
+    const db = wx.cloud.database()
+    db.collection("Donors").get().then(res=>{
+      this.setData({
+        list:res.data.map((item)=>{
+          item.time = util.formatTime(item.time,"YY-MM-DD")
+          return item
+        }),//util.formatTime(res.data[0].time,"YY-MM-DD"),
+      })
+      console.log(res.data[0].time)
+    })
   },
   //转发功能
   onShareAppMessage: function () {
